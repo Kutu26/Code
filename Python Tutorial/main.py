@@ -9,3 +9,7 @@ else:
     
 for i in range(10):
     print(i)
+    
+while i < 20:
+    print(i)
+    i += 1
