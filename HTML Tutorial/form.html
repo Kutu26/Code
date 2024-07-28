@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <header>
+        <pre><h1><u>Student Registration Form</u></h1></pre>
+    </header>
+    <main>
+        <form action="form.php">
+            <div>
+                <input type="text" class="name" id="name" placeholder="User_Name">
+                or
+                <input type="email" class="email" id="email" placeholder="Email_Id">
+                <br><br>
+                <label for="password">Password : </label>
+                <input type="password" class="password" id="password">
+                <br><br>
+                <button type="Login">Login </button>
+            </div>
+            <br>
+            <div>
+                <h3>Student Details</h3>
+                <label for="name">Student Name : </label>
+                <input type="text" placeholder="">
+                <br><br>
+                <label for="name">Father's Name : </label>
+                <input type="text" placeholder="">
+                <label for="name">Mother's Name : </label>
+                <input type="text" placeholder="">
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date">
+                <br><br>
+                <label for="gender">Gender : </label>
+                <label for="gender1">
+                <input type="radio" value="Male" name="gender" id="gender1"> Male
+                </label>
+                <label for="gender2"> 
+                <input type="radio" value="Female" name="gender" id="gender2"> Female
+                </label>
+                <label for="gender3"> 
+                <input type="radio" value="Others" name="gender" id="gender3"> Others
+                </label>
+            </div>
+            <br>
+            <div>
+                <h3>Student Address</h3>
+                <label for="name">Address :
+                <input type="text" placeholder="">
+                </label>
+                <br><br>
+                <label for="name">City : </label>
+                <!-- <input type="text" placeholder=""> -->
+                <select id="city" name="city">
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Pune">Pune</option>
+                </select>
+                <label for="name">State : </label>
+                <!-- <input type="text" placeholder=""> -->
+                <select id="state" name="state">
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Maharastra">Maharastra</option>
+                    <option value="Tamilnadu">Tamilnadu</option>
+                    <option value="Madhyapradesh">madhyapradesh</option>
+                </select>
+                <br><br>
+                <label for="name">Pincode : </label>
+                <input type="text" placeholder="">
+            </div>
+            <br>
+            <div>
+                <h3>Student Contact</h3>
+                <label for="name">Mobile Number : </label>
+                <input type="text" placeholder="">
+                <br><br>
+                <label for="name">Whatsapp Number : </label>
+                <input type="text" placeholder="">
+                <br><br>
+                <label for="name">Email Id : </label>
+                <input type="text" placeholder="">
+            </div>
+            <br>
+            <div>
+                <h3> Courses </h3>
+                <label for="subject">Select Fav Subjects : </label>
+                <label for="subject1">
+                <input type="checkbox" value="Math" name="subject" id="subject1"> Math
+                </label>
+                <label for="subject2"> 
+                <input type="checkbox" value="Phys" name="subject" id="subject2"> Phys
+                </label>
+                <label for="subject3"> 
+                <input type="checkbox" value="Chem" name="subject" id="subject3"> Chem
+                </label>
+                <label for="subject4"> 
+                <input type="checkbox" value="Bio" name="subject" id="subject4"> Bio
+                </label>
+                <label for="subject5"> 
+                <input type="checkbox" value="Com" name="subject" id="subject5"> Com
+                </label>
+                <label for="subject6"> 
+                <input type="checkbox" value="Eng" name="subject" id="subject6"> Eng
+                </label>
+                <label for="subject7"> 
+                <input type="checkbox" value="Hin" name="subject" id="subject7"> Hin
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="textarea" >Feedback</label>
+                <textarea name="message" id="textarea" cols="80" rows="5" placeholder="Enter message"></textarea>
+            </div>  
+            <br>
+            <div>
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a href="http://127.0.0.1:5500/HTML%20Tutorial/form.html" target="_blank">Home</a>
+        <a href="https://plumsail.com/forms/templates/student-registration-form/" target="_blank">About</a>
+        <a href="https://www.wikipedia.org/" target="_blank">Help</a>
+     </footer>
+    
+</body>
+</html>
