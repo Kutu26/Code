@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Facebook Old Page</title>
+	<style>
+		*{
+			margin: 0%;
+			padding: 0%;
+			box-sizing: border-box;
+		}
+
+		body{
+			width: 100%;
+    		font-family: Arial, Helvetica, sans-serif;
+    		background-color: rgb(201, 215, 235);
+		}
+
+		.header{
+			width: 100%;
+			height: 85px ;
+			border: 2px solid darkblue;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			background-color: rgb(59, 59, 152);
+		}
+
+        .head{
+            font-size:45px; 
+            position: absolute; 
+            left:180px; 
+            top:3.5%; 
+            color:white;
+        }
+
+        .input1{
+            position:absolute; 
+            right:485px; 
+            color:white; 
+            top:2%; 
+            font-size:12px; 
+            font-family:Helvetica, Arial, sans-serif;
+        }
+
+        .input2{
+            position:absolute; 
+            right:340px; 
+            color:white; 
+            top:2%; 
+            font-size:12px; 
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .input{
+            position:absolute; 
+            right:167px; 
+            top:5%;
+        }
+
+        .input3{
+            width:150px; 
+            height:22px; 
+            border:0.5px solid black;
+        }
+
+        .input4{
+            width:150px; 
+            height:22px; 
+            border:0.5px solid black;
+        }
+
+        .submit1{
+            background-color:#4267b2; 
+            height:20px; 
+            width: 50px;
+            color:white; 
+            border:1px solid darkblue; 
+            border-radius:2px;
+        }
+
+        .link1{
+            color:#889fbf; 
+            text-decoration:none; 
+            position:relative; 
+            left:175px; 
+            top:5px;
+        }
+
+        .left{
+			width: 55%;
+			position: absolute;
+		}
+
+        .intro{
+            color:rgb(14, 56, 95); 
+            font-size:20px; 
+            font-weight:700; 
+            width:300px;
+            display:block; 
+            position:relative; 
+            left:200px; 
+            margin:2%;
+        }
+
+        .image{
+			position: absolute;
+			left: 200px;
+		}
+
+		.right{
+			width: 45%;
+			position: absolute;
+			top: 16%;
+			left: 56%;
+		}
+
+        .text1{
+            color:#333; 
+            font-size:36px; 
+            font-family:Helvetica, Arial, sans-serif; 
+            font-weight:700;
+        }
+
+        .text2{
+            color:#1d2129; 
+            font-size:19px; 
+            font-family:Helvetica, Arial, sans-serif;
+        }
+
+		.input5{
+			background-color: white;
+			border: 3px solid rgb(189, 199, 216);
+			border-radius: 7px;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 15px;
+			font-weight: 500;
+			padding-bottom: 8px;
+			padding-top: 8px;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin: 6px;
+		}
+
+        #input5{
+            width:180px;
+        }
+
+        #input_5{
+            width:377px;
+        }
+
+        .text3{
+            color:#1d2129; 
+            font-size:19px; 
+            font-family:Helvetica, Arial, sans-serif;
+        }
+
+		select{
+			background-color: rgb(221, 221, 221);
+			border: 1px solid rgb(189, 199, 216);
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 13px;
+			font-weight: 400;
+			height: 30px;
+			width: 56px;
+            padding: 5px;
+		}
+
+		.link2{
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 11px;
+			color: rgb(54, 88, 153);
+			width: 150px;
+			display: inline-block;
+			text-decoration: none;
+		}
+
+		.gender{
+			color: rgb(29, 33, 41);
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+		}
+
+		.termsNconditions{
+			color: rgb(168, 115, 115);
+			display: block;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 11px;
+			margin-top: 11px;
+			margin-bottom: 11px;
+			width: 316px;
+		}
+
+		.submit2{
+			font-size: 18px;
+			background-color: rgb(105, 167, 78);
+			border: 1px solid rgb(59, 110, 34);
+			color: white;
+			font-family: Bold, Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            height: 39px;
+			width: 194px;
+            padding: 10px;
+			margin-bottom: 10px;
+			margin-top: 10px;
+			border-radius: 5px;
+		}
+
+        .link3{
+            font-family:Helvetica, Arial, sans-serif; 
+            color:rgb(102, 102, 102); 
+            font-size:13px;
+        }
+	</style>
+</head>
+<body>
+	<div class="header">
+		<span class="head"> <b>facebook</b> </span>
+        <form action="facebook.js">
+			<span class="input1">Email or Phone </span>
+			<span class="input2">Password </span>
+		
+    	<div class="input">
+			<input class="input3" type="text"> &emsp;  
+			<input class="input4" type="password"> &emsp;
+			<button class="submit1"> <b>Log In</b></button>
+			<br>
+			<a class="link1" href="#">forgotten passoword?</a>
+		</div>
+        </form>
+	</div>
+
+	<div class="left">
+		<span class="intro"> Facebook helps you connect and share with the people in your life.</span>
+
+		<img class="image" src="Friends.png"/>
+	</div>
+
+    <form action="facebook.js">
+		<div class="right">
+			<span class="text1">Create an account</span>
+			<br><br>
+			<span class="text2">It's free and always will be.</span> 
+			<br><br>
+
+			<input class="input5" id="input5" type="text" placeholder="First Name">
+			<input class="input5" id="input5" type="text" placeholder="Last Name">
+			<input class="input5" id="input_5" type="text" placeholder="Mobile number or email address">
+			<input class="input5" id="input_5" type="password" placeholder="New Password">
+			<br><br>
+
+			<span class="text3">Birthday</span>
+			<br>
+
+			<select>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+			<select>
+				<option value="1">Jan</option>
+				<option value="2">Feb</option>
+				<option value="3">Mar</option>
+				<option value="4">Apr</option>
+				<option value="5">May</option>
+				<option value="6">Jun</option>
+				<option value="7">Jul</option>
+				<option value="8">Aug</option>
+				<option value="9">Sep</option>
+				<option value="10">Oct</option>
+				<option value="11">Nov</option>
+				<option value="12">Dec</option>
+			</select>
+			<select>
+				<option value="2000">2000</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+				<option value="2003">2003</option>
+				<option value="2004">2004</option>
+				<option value="2005">2005</option>
+				<option value="2006">2006</option>
+				<option value="2007">2007</option>
+				<option value="2008">2008</option>
+				<option value="2009">2009</option>
+				<option value="2010">2010</option>
+				<option value="2011">2011</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+			</select>
+
+			<a class="link2" href="#">why i need to provide my birthday?</a>
+			<br><br>
+
+			<label>
+			<input type="radio" value="Male" name="gender"> Male
+			</label>
+			<label> 
+			<input type="radio" value="Female" name="gender"> Female
+			</label>
+			<br>
+
+			<p class="termsNconditions">By clicking Create an account, you agree to our Terms and confirm that you have read our Data Policy, including our cokiee
+			Policy. You may receive SMS message notifications from Facebook and can opt out at any time.</p>
+			<br>
+
+			<button class="submit2">Create an account</button>
+			<br>
+
+			<span class="link3"><a href="#">Create a Page</a> for a celebrity, band or business.</span>
+		</div>
+    </form>
+</body>
+</html>

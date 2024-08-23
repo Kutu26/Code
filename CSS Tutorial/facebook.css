@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(201, 215, 235);
+}
+
+.header{
+    width: 100%;
+    height: 85px ;
+    border: 2px solid darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(59, 59, 152);
+}
+
+.head{
+    font-size:45px; 
+    position: absolute; 
+    left:180px; 
+    top:3.5%; 
+    color:white;
+}
+
+.input1{
+    position:absolute; 
+    right:485px; 
+    color:white; 
+    top:2%; 
+    font-size:12px; 
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+.input2{
+    position:absolute; 
+    right:340px; 
+    color:white; 
+    top:2%; 
+    font-size:12px; 
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.input{
+    position:absolute; 
+    right:167px; 
+    top:5%;
+}
+
+.input3{
+    width:150px; 
+    height:22px; 
+    border:0.5px solid black;
+}
+
+.input4{
+    width:150px; 
+    height:22px; 
+    border:0.5px solid black;
+}
+
+.submit1{
+    background-color:#4267b2; 
+    height:20px; 
+    width: 50px;
+    color:white; 
+    border:1px solid darkblue; 
+    border-radius:2px;
+}
+
+.link1{
+    color:#889fbf; 
+    text-decoration:none; 
+    position:relative; 
+    left:175px; 
+    top:5px;
+}
+
+.left{
+    width: 55%;
+    position: absolute;
+}
+
+.intro{
+    color:rgb(14, 56, 95); 
+    font-size:20px; 
+    font-weight:700; 
+    width:300px;
+    display:block; 
+    position:relative; 
+    left:200px; 
+    margin:2%;
+}
+
+.image{
+    position: absolute;
+    left: 200px;
+}
+
+.right{
+    width: 45%;
+    position: absolute;
+    top: 16%;
+    left: 56%;
+}
+
+.text1{
+    color:#333; 
+    font-size:36px; 
+    font-family:Helvetica, Arial, sans-serif; 
+    font-weight:700;
+}
+
+.text2{
+    color:#1d2129; 
+    font-size:19px; 
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+.input5{
+    background-color: white;
+    border: 3px solid rgb(189, 199, 216);
+    border-radius: 7px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 6px;
+}
+
+#input5{
+    width:180px;
+}
+
+#input_5{
+    width:377px;
+}
+
+.text3{
+    color:#1d2129; 
+    font-size:19px; 
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+select{
+    background-color: rgb(221, 221, 221);
+    border: 1px solid rgb(189, 199, 216);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 30px;
+    width: 56px;
+    padding: 5px;
+}
+
+.link2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    color: rgb(54, 88, 153);
+    width: 150px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.gender{
+    color: rgb(29, 33, 41);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.termsNconditions{
+    color: rgb(168, 115, 115);
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 316px;
+}
+
+.submit2{
+    font-size: 18px;
+    background-color: rgb(105, 167, 78);
+    border: 1px solid rgb(59, 110, 34);
+    color: white;
+    font-family: Bold, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    height: 39px;
+    width: 194px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.link3{
+    font-family:Helvetica, Arial, sans-serif; 
+    color:rgb(102, 102, 102); 
+    font-size:13px;
+}
