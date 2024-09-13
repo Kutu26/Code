@@ -11,6 +11,7 @@ body {
     height: 100vh;
     background-color: black;
     font-family: 'Arial', sans-serif;
+    background: url(../Assets/CalC.jpg) center center fixed;
 }
 
 .calculator {
@@ -19,6 +20,7 @@ body {
     background-color: #3e3939;
     padding: 2px;
     border-radius: 10px;
+    
 }
 
 .top-bar {
