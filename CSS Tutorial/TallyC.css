@@ -1,0 +1,26 @@
+body {
+    background: url(../Assets/Back_Img.jpg) center center fixed;
+}
+
+.custom-width {
+    max-width: 500px;
+    background: url(../Assets/Back_Img.jpg) center center fixed; 
+}
+
+.custom-btn {
+    min-width: 100px;
+}
+
+#saved-values {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.saved-values-item {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.saved-values-item:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tele Counter</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS Tutorial/TallyC.css">
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+    <div class="container text-center bg-white p-5 rounded shadow-lg custom-width">
+        <h1 class="mb-4">Tally Counter</h1>
+        <div id="counter-display" class="display-4 mb-4 text-primary">0</div>
+        <div class="btn-group mb-4" role="group">
+            <button type="button" class="btn btn-primary custom-btn" onclick="increment()">Increment</button>
+            <button type="button" class="btn btn-danger custom-btn" onclick="decrement()">Decrement</button>
+            <button type="button" class="btn btn-warning custom-btn" onclick="reset()">Reset</button>
+            <button type="button" class="btn btn-success custom-btn" onclick="save()">Save</button>
+        </div>
+        <div class="saved-counts">
+            <h2 class="h5">Saved Counts</h2>
+            <div id="saved-values" class="border rounded p-2 bg-light"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../JS Tutorial/TallyC.js"></script>
+</body>
+</html>
