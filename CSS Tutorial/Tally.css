@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    background-color: #424250;
+    background: url(../Assets/Back_Img.jpg) center center fixed;
+    place-items: center;
+}
+
+#main{
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    display: grid;
+    background-color: rgb(51, 51, 61);
+    background: url(../Assets/Back_Img.jpg) center center fixed;
+    border-radius: 10PX;
+    color: rgb(51, 49, 49);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    color: rgb(218, 202, 202);
+    text-align: center;
+    margin-top: 6%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#output{
+    width: 50%;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-bottom: 200px;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(49, 196, 141);
+}
+
+#buttondiv{
+    margin-top: -200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+#button1{
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    margin:0 40px 0 40px;
+}
+
+#minus{
+    width: 200px;
+    height: 60px;
+    background-color: #424250;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    filter: contrast(1.5);
+}
+
+#button2{
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:3 ;
+    grid-column-end:5;
+    margin:0 40px 0 40px;
+   
+}
+#plus{
+    background-color: #424250;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    filter: contrast(1.5);
+}
+
+#button3{
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:2 ;
+    grid-column-end:3;
+}
+
+#zero{
+    background-color: #424250;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
