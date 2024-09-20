@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding this, call, apply, and bind</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">JavaScript <code>this</code>, <code>call()</code>, <code>apply()</code>, and <code>bind()</code> Demonstration</h1>
+
+        <div class="text-center mb-4">
+            <button id="btnCall" class="btn btn-primary mx-2">Use call()</button>
+            <button id="btnApply" class="btn btn-success mx-2">Use apply()</button>
+            <button id="btnBind" class="btn btn-primary mx-2">Use bind()</button>
+        </div>
+
+        <div class="text-center">
+            <p id="output" class="alert alert-secondary">Press a button to see the result here.</p>
+        </div> 
+    </div>
+
+    <script>
+        const person = {
+            name: 'Rudra',
+            greet: function (message) {
+                document.getElementById('output').innerText = `${message}, I am ${this.name}`;
+            }
+        };
+        person.greet('Hello');
+
+        const anotherPerson = {
+            name: 'Daya'
+        };
+
+        document.getElementById('btnCall').onclick = function() {
+            person.greet.call(anotherPerson, 'Hi'); 
+        };
+
+        document.getElementById('btnApply').onclick = function() {
+            person.greet.apply(anotherPerson, ['Hey']);
+        };
+
+        document.getElementById('btnBind').onclick = function() {
+            const boundGreet = person.greet.bind(anotherPerson, 'Hola');
+            boundGreet();
+        };
+    </script>
+</body>
+</html>
