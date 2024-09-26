@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="../CSS Tutorial/bmi.css">
+</head>
+<body>
+    <div class= "container">
+        <h1 class="text1">CALCULATE YOUR</h1>
+        <h1 class="text2">BMI</h1>
+    
+    <div class="card">
+        <div class="card-header">
+            <h2>BMI Calculator</h2>
+        </div>
+        <div class="card-body">
+            <div id="BmiForm">
+                <div class="gender">
+                    <button id="male">Male</button>
+                    <button id="female">Female</button>
+                </div>
+                <div class="data">
+                <span>
+                    <button class="Weight">Weight
+                    <br>
+                    <input id="Weight" type="number">
+                    <select id="WeightUnit">
+                        <option value="kg">kg</option>
+                        <option value="lbs">lbs</option>
+                    </select>
+                    </button>
+                </span>
+            
+                <span>
+                    <button class="Height">Height
+                    <br>
+                    <input id="Height" type="number">
+                    <select id="HeightUnit">
+                        <option value="cm">cm</option>
+                        <option value="ft">ft</option>
+                    </select>
+                    </button>
+                </span>
+                </div>
+                <div class="gauge-container">
+                    <div>
+                        <img id="bmi-man" src="../Assets/Men_vector.png" alt="Man Image">
+                        <img id="bmi-woman" src="../Assets/Women_vector.png" alt="Woman Image">
+                    </div>
+                    <div class="pointer"></div>
+                    <div class="center-hide"></div>
+                    <div class="bottom-hide"></div>
+                    <div class="arrow-container">
+                        <div class="arrow-wrapper speed-0">
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                    <div class="scale scale-1"></div>
+                    <div class="scale scale-2"></div>
+                    <div class="scale scale-4"></div>
+                    <div class="scale scale-5"></div>
+                    <!-- <img id="bmi-range" src="BMI-Gauge.jpeg"> -->
+                </div>
+                    <div id="result">BMI</div>
+                        <ul class="bmi-chart">                         
+                          <li class="underweight">
+                            <span class="bmi-label">Underweight</span>
+                            <span class="bmi-value">< 18.5</span>
+                          </li>
+                          <li class="normal">
+                            <span class="bmi-label">Normal</span>
+                            <span class="bmi-value">18.5 - 24.9</span>
+                          </li>
+                          <li class="overweight">
+                            <span class="bmi-label">Overweight</span>
+                            <span class="bmi-value">25.0 - 29.9</span>
+                          </li>
+                          <li class="obese">
+                            <span class="bmi-label">Obese</span>
+                            <span class="bmi-value">30.0 - 34.9</span>
+                          </li>
+                          <li class="extremely-obese">
+                            <span class="bmi-label">Extremely Obese</span>
+                            <span class="bmi-value">> 35.0</span>
+                          </li>
+                        </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+    <script src="../JS Tutorial/bmi.js"></script>
+</body>
+</html>

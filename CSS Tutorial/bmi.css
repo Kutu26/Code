@@ -1,0 +1,323 @@
+ body {
+   background-color: black;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+    height: 710px;
+    background-color: #705fad;
+    color: #fff;
+}
+
+.text1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -10px;
+    padding-top: 20px;
+}
+
+.text2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: -25px;
+}
+
+ .card{
+    border: solid#5c41bf;
+    border-width: 15px;
+    border-radius: 40px;
+    background-color: #fff;
+    max-width: 300px;
+    margin: 0 auto;
+    height: 550px;
+    margin-top: -40px;
+}
+
+.card-header{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.gender{
+    text-align: center;
+    margin-top: -10px;
+}
+
+#male.active, #female.active {
+    background-color: #ccc; /* Light gray background for active state */
+    color: #000; /* Black text color */
+}
+
+#male{
+    text-align: center;
+    border: #fff;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+#female{
+    text-align: center;
+    border: #fff;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.data{
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.Weight{
+    border: #fff;
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+}
+
+#Weight{
+    text-align: center;
+    border: #fff;
+    border-radius: 5px;
+    height: 20px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Height{
+    border: #fff;
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+}
+
+#Height{
+    text-align: center;
+    border: #fff;
+    border-radius: 5px;
+    height: 20px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#WeightUnit, #HeightUnit {
+    width: 40px;
+    height: 22px; 
+    border: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* #bmi-range{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 250px;
+} */
+
+.gauge-container{
+    width: 160px;
+    height: 160px;
+    border: 30px solid rgb(123, 197, 220);
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+}
+
+#bmi-man, #bmi-woman {
+    display: none;
+}
+
+#bmi-man {
+    width: 80px; 
+    height: 110px;
+    position: absolute;
+    top: 45%; 
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#bmi-woman {
+    width: 100px; 
+    height: 120px;
+    position: absolute;
+    top: 45%; 
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.pointer{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(123, 197, 220);
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 45%;
+    z-index: 2;
+}
+
+.scale{
+    width: 2px;
+    height: 218px;
+    background-color: rgb(6, 104, 134);
+    position: absolute;
+    left: 49%;
+    top: -17%;
+    transform: rotate(-90deg);
+} 
+
+.scale-1{
+    transform: rotate(-90deg);
+}
+.scale-2{
+    transform: rotate(-40deg);
+}
+.scale-4{
+    transform: rotate(40deg);
+}
+.scale-5{
+    transform: rotate(90deg);
+}
+
+.center-hide{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bottom-hide{
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    position: absolute;
+    border-radius:800px;
+    top: 118px;
+    left: 9px;
+}
+
+.arrow-container{
+    width: 115px;
+    height: 115px;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    /* transform-origin: 50% 100%; */
+    /* transform: rotate(90deg); */
+    z-index: 3;
+}
+
+.arrow-wrapper{
+    width: 115px;
+    height: 115px;
+    background-color: transparent;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.arrow{
+    width: 3px;
+    height: 65px;
+    background-color: rgb(123, 197, 220);
+    position: absolute;
+    top: 54%;
+    left: 48.75%;
+}
+
+.speed-0{
+    transform: rotate(0deg);
+ }
+.speed-50{
+    transform: rotate(65deg);
+}
+.speed-100{
+    transform: rotate(115deg);
+}
+.speed-150{
+    transform: rotate(180deg);
+}
+.speed-200{
+    transform: rotate(245deg);
+}
+.speed-250{
+    transform: rotate(295deg);
+}
+
+#result {
+    text-align: center;
+    margin-top: -30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    /* background-color: #fff; */
+    /* z-index: 1000; */
+    position: relative;
+}
+  
+.bmi-chart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+  
+.bmi-chart li::before {
+    content: "•";
+    font-size: 25px;
+    padding-right: 10px;
+    margin-left: -10px;
+}
+  
+.underweight::before {
+    color: #3f51b5;
+}
+  
+.normal::before {
+    color: #26a69a;
+}
+  
+.overweight::before {
+    color: #fbc02d;
+}
+    
+.obese::before {
+    color: #ef5350;
+}
+  
+.extremely-obese::before {
+    color: #d32f2f;
+}
+  
+.bmi-label {
+    flex: 1;
+}
+  
+.bmi-value {
+    font-weight: bold;
+    color: #666;
+    margin-right: 30px;
+}
+  
+
+
+
+ 
+
+
